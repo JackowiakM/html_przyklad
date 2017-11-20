@@ -1,0 +1,173 @@
+﻿.external {
+  margin:0 auto;
+  width:960px;
+  min-height: 737px; 
+  }
+
+.header,
+.main {
+  position:relative;
+  float:left;
+  clear:both;
+  width:960px; }
+
+.header {
+  height:133px; 
+  }
+.header .logo,
+.header .logo a {
+ display:block;
+  margin:0;
+  padding:0;
+  outline:0;
+  border:0;
+  color: white;
+  text-decoration: none;
+   }
+.header .logo {
+  font-family:Georgia,serif;
+  font-size: 60px;
+  position:absolute;
+  top:50px;
+  left: 25px;
+  text-shadow:black 2px 2px;
+  font-weight:normal;
+  font-stretch: wider;
+  }
+.header .logo a {
+  width:960px;
+  height:100px; }
+.header .logo span {
+  display:none; }
+
+.subtitle
+{
+color: #31cfc5;
+font-size: 25px;
+margin-left: 276px;
+font-weight:lighter;
+text-shadow:black 0px 0px;
+}
+
+.odciecie1
+{
+height: 7px;
+width: 960px;
+background-color: #31cfc5;
+position:relative;
+float:left;
+clear:both;
+}
+
+.menu_poziome
+{
+ background-color: #001914;
+ width: 720px;
+ height: 50px;
+ color: white;
+ font-size: 20px;
+ font-family: Georgia,serif;
+}
+
+.odciecie2
+{
+height: 7px;
+width:   720px;
+background-color:  #31cfc5 ;
+  position:relative;
+  float:left;
+  clear:both;
+}
+
+.content
+{
+min-height: 402px;
+width: 720px;
+float: left;
+background-color: white;
+color: black;
+font-size: 20px;
+vertical-align: middle;
+}
+
+.tekst
+{
+margin: 20px;
+color: black;
+}
+
+.content h1
+{
+color: black;
+font-style: italic;
+padding-bottom: 20px;
+}
+
+.menu_poziome .menu {
+  position:absolute;
+  top:0;
+  margin-left: 40px;
+  margin:0;
+  padding-top:0;
+  height:40px;
+  list-style:none; }
+.menu_poziome .menu li {
+    
+  display:block;
+  float:left;
+  clear:none;
+  margin-left:25px;
+  padding:0 0 0 0;  
+  height:40px;
+  line-height:40px;}
+.menu_poziome .menu li a {
+  color:#fff;
+  text-transform:lowercase;
+  text-decoration:none;
+   }
+.menu_poziome .menu li a:hover {
+  text-decoration:none; 
+  color: #03978e; 
+  }
+
+.main .content_ksiazki{
+float:left;
+clear:none;
+width:714px;
+}
+
+.main .sidebar {
+  float:left;
+  clear:none;
+  width:240px;
+  min-height:580px;
+  }
+
+.sidebar .menu {
+  margin-top:10px;
+}  
+
+.sidebar .menu li{
+  float:left;
+  clear:both;
+  width:180px;
+  margin:0;
+  padding:0;
+  list-style:none;
+} 
+
+.sidebar .menu li a {
+  display:block;
+  padding:4px 0;
+  font-size:18px;
+  font-family:Georgia,serif;
+  text-decoration:none;
+  color:#fff;
+  background-position:bottom;
+  padding-bottom:10px;
+ }
+
+.sidebar .menu li a:hover {
+  display:block;
+  color: #03978e;
+}
